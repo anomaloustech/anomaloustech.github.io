@@ -6,7 +6,7 @@ description: Anomalous Technologies Website
 url: https://www.anomaloustech.co.za
 # User settings
 username: Anomalous Technologies
-user_description: Site under construction.
+user_description: Anomalous Technologies specializes in data anomaly products as well as consulting in technology fields such as Software Development, Infrastructure, DevOps, Information Security and Cyber Security.
 user_title: Finding the needle in data haystacks
 email: christo@anomaloustech.co.za
 twitter_username: anomaloustech
@@ -14,6 +14,6 @@ github_username:  anomaloustech
 
 # Google-analytics
 google-analytics:
-  id: ""
+  id: "UA-169909401-1"
 
 exclude: ['package.json', 'src' , 'node_modules']
