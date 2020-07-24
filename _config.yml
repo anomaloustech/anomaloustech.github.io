@@ -17,3 +17,6 @@ google-analytics:
   id: "UA-169909401-1"
 
 exclude: ['package.json', 'src' , 'node_modules']
+
+plugins:
+  - jekyll-sitemap
