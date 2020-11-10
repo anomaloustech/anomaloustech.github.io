@@ -6,8 +6,9 @@ description: Anomalous Technologies Website
 url: https://www.anomaloustech.co.za
 # User settings
 username: Anomalous Technologies
-
-
+author: Christo Goosen
+tagline: Anomalous Technologies specializes in data anomaly products as well as consulting in technology fields such as Software Development, Infrastructure, DevOps, Information Security and Cyber Security.
+logo: /assets/img/logo.png
 user_description: Anomalous Technologies specializes in data anomaly products as well as consulting in technology fields such as Software Development, Infrastructure, DevOps, Information Security and Cyber Security.
 infosec_description: You can't protect what you don't know? Anomalous Technologies is an expert in cloud security and developer security. Let us help you get secured!
 cto_description: Choosing a tech team, stack or a CTO can be a daunnting task. Let us help you idenitfy key areas of risk and help you build the tech startup you always dreamed of.
@@ -25,3 +26,27 @@ exclude: ['package.json', 'src' , 'node_modules']
 
 plugins:
   - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+
+# SEO
+twitter:
+  username: anomaloustech
+  card: summary
+
+social:
+  name: Ben Balter
+  links:
+    - https://twitter.com/anomaloustech
+    - https://twitter.com/crypticG00se
+    - https://www.linkedin.com/in/christo-goosen
+    - https://github.com/c-goosen
+
+
+# webmaster_verifications:
+#   google: 1234
+#   bing: 1234
+#   alexa: 1234
+#   yandex: 1234
+#   baidu: 1234
