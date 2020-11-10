@@ -10,24 +10,14 @@
           </div>
           <div class="card-body">
             <h5 class="card-title">Please leave us your email and how we can help</h5>
-            <form
-            action="https://formspree.io/f/myybpglr"
-            method="POST"
-            >
-            <label>
-              Your email:
-              <input class="form-control" type="text" name="_replyto">
-            </label>
-            <label>
-              Your message:
-              <textarea class="form-control" name="message"></textarea>
-            </label>
-  
-            <!-- your other form fields go here -->
-  
-            <button class="btn btn-primary" type="submit">Send</button>
+           <form method="POST" action="https://formspree.io/f/myybpglr">
+              <input type="email" name="email" placeholder="Your email">
+              <input type="text" name="name" placeholder="Your name">
+              <textarea name="message" placeholder="Your message" rows="3">
+              </textarea>
+              <button type="submit">Send Message</button>
             </form>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+          
           </div>
         </div>
 
