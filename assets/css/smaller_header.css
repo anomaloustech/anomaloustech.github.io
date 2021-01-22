@@ -1,0 +1,22 @@
+#particles-js-smaller {
+    background: #1a222c;
+    display: flex;
+    vertical-align: bottom;
+    width: 100%;
+    min-height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header-smaller {
+    z-index: 1;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin: 0 auto;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
