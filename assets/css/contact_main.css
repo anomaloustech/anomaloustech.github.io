@@ -164,8 +164,8 @@ iframe {
   justify-content: space-between;
   align-items: center;
 
-  padding: 90px 130px 88px 148px;
-  margin-top: -38vh;
+  padding: 5%
+  /*margin-top: -38vh;*/
   padding-top: 1%;
 }
 
