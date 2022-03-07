@@ -1,12 +1,13 @@
-#particles-js-smaller{
+.small-particles-js{
 background:#1a222c;
 display:flex;
 vertical-align:bottom;
-width:100%;min-height:70vh;
+width:100%;
+min-height:60vh;
+height:60vh;
 background-repeat:no-repeat;
 background-size:cover;background-attachment:fixed
 }
-#particles-js .particles-js-canvas-el{width:100%!important;height:100vh!important}
 
 .header-smaller {
     z-index: 1;
