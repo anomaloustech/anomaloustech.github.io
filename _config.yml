@@ -21,6 +21,7 @@ github_username:  anomaloustech
 # Google-analytics
 google-analytics:
   id: "UA-169909401-1"
+  g4atag: "G-EDPGK2QVXJ"
 
 exclude: ['package.json', 'src' , 'node_modules']
 
